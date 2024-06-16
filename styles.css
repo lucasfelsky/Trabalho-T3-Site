@@ -1,5 +1,5 @@
 .btn-primary {
-    background-color: #511E8B; 
+    background-color: #572096; 
     border: none;
     color: white;
     padding: 5px 23px;
@@ -11,7 +11,7 @@
     font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 40px; 
+    border-radius: 20px; 
   }
   
   .btn-primary:hover {
@@ -19,17 +19,8 @@
   }
   
   .btn-primary a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Inherit button text color */
-}
-
-.fundo-botao{
-    background-color: #5B2895;
-    border-radius: 46px;
-    margin: 0 auto;
-    padding: 2px;
-    width: 69%;
-
+    text-decoration: none;
+    color: white; 
 }
 
 .montserrat-button {
