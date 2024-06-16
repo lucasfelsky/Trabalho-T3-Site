@@ -1,22 +1,40 @@
 .btn-primary {
-    background-color: #5d17ad; 
+    background-color: #511E8B; 
     border: none;
     color: white;
-    padding: 10px 25px;
+    padding: 5px 23px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px; 
+    border-radius: 40px; 
   }
   
   .btn-primary:hover {
-    background-color: #400186; 
+    background-color: #451a77; 
   }
   
   .btn-primary a {
     text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit button text color */
+    color: white; /* Inherit button text color */
 }
+
+.fundo-botao{
+    background-color: #5B2895;
+    border-radius: 46px;
+    margin: 0 auto;
+    padding: 2px;
+    width: 69%;
+
+}
+
+.montserrat-button {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
