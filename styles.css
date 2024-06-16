@@ -1,5 +1,5 @@
 .btn-primary {
-    background-color: #572096; 
+    background-color: #572096;
     border: none;
     color: white;
     padding: 5px 23px;
@@ -11,16 +11,16 @@
     font-weight: bold;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 20px; 
-  }
-  
-  .btn-primary:hover {
-    background-color: #451a77; 
-  }
-  
-  .btn-primary a {
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #451a77;
+}
+
+.btn-primary a {
     text-decoration: none;
-    color: white; 
+    color: white;
 }
 
 .montserrat-button {
@@ -28,4 +28,50 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
+.button-container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    /* Enable flexbox for container */
+    justify-content: space-between;
+
+}
+
+@media (max-width: 800px) {
+    .button-container {
+        display: flex;
+        /* Re-enable flexbox for responsive styles */
+        flex-direction: column;
+        /* Stack buttons vertically */
+        align-items: center;
+        /* Center buttons horizontally within the container */
+    }
+}
+
+.botao-social {
+    width: fit-content;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    background-color: #451a77;
+    font-size: 30px
+}
+
+.list-group {
+    background-color: #400186;
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inverted-colors {
+    filter: invert(100%);
+    opacity: 85%;
+}
+
