@@ -114,7 +114,6 @@
  .teste{
     background-color: #fce7c8; 
     border-radius: 10px; 
-    width: 220px;
  }
 
  @media (max-width: 800px){
