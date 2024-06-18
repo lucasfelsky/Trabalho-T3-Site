@@ -86,7 +86,7 @@
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 8px; /* Add spacing between image and description */
+    margin-bottom: 9px; /* Add spacing between image and description */
   }
   
   .grid-item a {
