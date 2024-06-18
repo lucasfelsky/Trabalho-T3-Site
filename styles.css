@@ -35,7 +35,7 @@
     width: 70%;
     display: flex;
     /* Enable flexbox for container */
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
@@ -75,3 +75,38 @@
     opacity: 85%;
 }
 
+.grid-item {
+    text-align: center;
+    padding: 10px; /* Adjust padding if needed */
+    border: 1px solid transparent; /* Optional: maintain border visibility but avoid color */
+    margin: 20px;
+  }
+  
+  .grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px; /* Add spacing between image and description */
+  }
+  
+  .grid-item a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent element */
+  }
+  
+  .row.no-gutters {
+    margin: 0 -20px; /* Apply negative margin to the row */
+  }
+  
+  .row.no-gutters .col-sm-2,
+  .row.no-gutters .col-md-2,
+  .row.no-gutters .col-lg-2 {
+    padding: 10px; /* Apply padding to columns to compensate for margin */
+  }
+  
+  @media (max-width: 800px){
+    .row.no-gutters .col-sm-2 {
+        width: 90%;
+        margin: 10px auto 10px auto;
+    }
+  }
