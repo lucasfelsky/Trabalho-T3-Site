@@ -110,3 +110,21 @@
         margin: 10px auto 10px auto;
     }
   }
+
+ .teste{
+    background-color: #fce7c8; 
+    border-radius: 10px; 
+    width: 220px;
+ }
+
+ @media (max-width: 800px){
+    .grid-item-title {
+        font-size: 22px;
+    }
+  }
+
+  @media (max-width: 800px){
+    .descricao {
+        font-size: 20px;
+    }
+  }
