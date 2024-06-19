@@ -2,23 +2,112 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fonte Representações</title>
-    <link rel="icon" href="assets\logo fonte.png">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonte Representações</title>
+  <link rel="icon" href="assets\logo fonte.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
+<style>
+  @media (max-width: 800px) {
+    .textocima {
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+
+    .col-md-6 h4 {
+      font-size: 25px;
+      text-align: center;
+    }
+
+    .col-md-6 p {
+      font-size: 18px;
+      text-align: center;
+      margin-right: 10px;
+    }
+
+  }
+</style>
+
 <body style="background-color: #400186;">
-    <div class="button-container" style="margin-top: 30px; width: 30%;">
-        <button class="btn-primary montserrat-button"><a href="empresas.html">VOLTAR</a></button>
-        <button class="btn-primary montserrat-button"><a href="contato.html">CONTATO</a></button>
+  <div class="button-container" style="margin-top: 30px; width: 30%;">
+    <button class="btn-primary montserrat-button"><a href="empresas.html">VOLTAR</a></button>
+    <button class="btn-primary montserrat-button"><a href="contato.html">CONTATO</a></button>
+  </div>
+  <h1
+    style="margin-top: 45px; margin-bottom: 75px; text-align: center; font-weight: 730; color: white; font-size: 60px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    SHINY TOYS</h1>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box with Image and Text Columns</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evSX huddled7lwJEuBfRn5qIBFyGjW9AGUayoTs+jyXM+Iz9uLlewAIVzQvLiE" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container" style="background-color: #fcf0df; border-radius: 7px;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box">
+            <div class="image-container">
+              <img src="ibagens\shinytoys.png" alt="Image description" class="img-fluid p-0">
+            </div>
+            <div class="text-container" style="margin: 20px 0 50px 0;">
+              <div class="row" style="margin-left: 5px;">
+                <div class="col-md-6">
+                  <h4>A Empresa</h4>
+                  <p style="text-align: justify;" class="textocima">A Shiny Toys oferece uma linha diversificada de
+                    brinquedos, incluindo carrinhos, bonecas, instrumentos musicais, jogos educativos e kits de
+                    construção. Seus produtos são encontrados em lojas físicas e online em todo o Brasil.
+                    Vendem produtos de alta qualidade, que são feitos com materiais
+                    duráveis e seguros para as crianças. A Shiny Toys também se preocupa em oferecer produtos educativos
+                    e divertidos que estimulam a criatividade e o desenvolvimento das crianças.</p>
+                </div>
+                <div class="col-md-6">
+                  <p style="margin-top: 38px; text-align: justify; margin-right: 10px;">Site da marca: <a target="_blank" href="https://www.shinytoys.com.br/">https://www.shinytoys.com.br/</a></p>
+                  <tag style="margin-top: 38px; text-align: justify; margin-right: 10px;">Instagram:<a target="_blank" href="https://www.instagram.com/shinytoysoficial/">https://www.instagram.com/shinytoysoficial/</a></tag>
+                  <tag style="margin-top: 38px; text-align: justify; margin-right: 10px;">Facebook:<a target="_blank" href="https://www.facebook.com/shinytoysofficial">https://www.facebook.com/shinytoysofficial</a></tag>
+                </div>
+
+                <button id="downloadButton"
+                  style="margin: 10px 0 0 15px; background-color: #e9c28c; border-radius: 5px; border: 2px solid #be9a6a; font-size: 20px; width: 180px; height: 50px; font-weight: 500; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Baixar
+                  Catálogo</button>
+                <a href="catalogos\Catálogo Shiny Toys 19022024_compressed.pdf" download="Catálogo Shiny Toys.pdf"
+                  id="downloadLink" style="display: none;" target="_blank"></a>
+
+                <script>
+                  const downloadButton = document.getElementById('downloadButton');
+                  const downloadLink = document.getElementById('downloadLink');
+
+                  downloadButton.addEventListener('click', function () {
+                    downloadLink.click();
+                  });
+                </script>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1
-        style="margin-top: 45px; margin-bottom: 75px; text-align: center; font-weight: 730; color: white; font-size: 60px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-        SHINY TOYS</h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OgwmRWzKhrmqjaRRAU+wwYH/qVEjSdCTu4xnC7FEqrdXhp/ZCB+sHSnRTqzDrzGvB"
+      crossorigin="anonymous"></script>
+  </body>
+
+  </html>
+
+
 </body>
 
 </html>
