@@ -129,11 +129,10 @@
 
 .bg-gradient-turquoise-blue {
   background-image: linear-gradient(to bottom, #6b4b91, #400186);
-  box-sizing: border-box;
 }
 
-.caixinhahistoria{
-  background-color: #fcf0df; 
+.caixinhahistoria {
+  background-color: #fcf0df;
   border-radius: 7px;
   box-shadow: 0px 0px 15px 2px #1d013d;
 }
