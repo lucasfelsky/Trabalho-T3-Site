@@ -129,6 +129,7 @@
 
 .bg-gradient-turquoise-blue {
   background-image: linear-gradient(to bottom, #6b4b91, #400186);
+  height: 100%;
 }
 
 .caixinhahistoria {
